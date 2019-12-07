@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253D522B238EFF2C0099D087 /* AppOpen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 253D522A238EFF2C0099D087 /* AppOpen.mp3 */; };
+		253D522D238EFF330099D087 /* CoopAllys.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 253D522C238EFF330099D087 /* CoopAllys.mp3 */; };
+		253D522F238EFF390099D087 /* ProtossFood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 253D522E238EFF390099D087 /* ProtossFood.mp3 */; };
+		253D5231238EFF3E0099D087 /* TerranFood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 253D5230238EFF3E0099D087 /* TerranFood.mp3 */; };
+		253D5233238EFF450099D087 /* ZergFood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 253D5232238EFF440099D087 /* ZergFood.mp3 */; };
+		256FB9752391CCA500AE2C29 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256FB9742391CCA500AE2C29 /* OrderViewController.swift */; };
+		25708345238439E7006A57B7 /* BuildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25708344238439E7006A57B7 /* BuildViewController.swift */; };
+		25BAC324239C703D007FCA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BAC323239C703D007FCA4A /* Main.storyboard */; };
+		25F75D1B237AFFD1002C16A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F75D1A237AFFD1002C16A4 /* AppDelegate.swift */; };
+		25F75D1D237AFFD1002C16A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F75D1C237AFFD1002C16A4 /* ViewController.swift */; };
+		25F75D20237AFFD1002C16A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F75D1E237AFFD1002C16A4 /* Main.storyboard */; settings = {ASSET_TAGS = (SoundSet, ); }; };
+		25F75D22237AFFD2002C16A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F75D21237AFFD2002C16A4 /* Assets.xcassets */; };
+		25F75D25237AFFD2002C16A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F75D23237AFFD2002C16A4 /* LaunchScreen.storyboard */; };
+		25F75D30237AFFD2002C16A4 /* Starcraft_Build_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F75D2F237AFFD2002C16A4 /* Starcraft_Build_CompanionTests.swift */; };
+		25F75D3B237AFFD3002C16A4 /* Starcraft_Build_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F75D3A237AFFD3002C16A4 /* Starcraft_Build_CompanionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F75D2C237AFFD2002C16A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F75D0F237AFFD1002C16A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F75D16237AFFD1002C16A4;
+			remoteInfo = "Starcraft Build Companion";
+		};
+		25F75D37237AFFD3002C16A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F75D0F237AFFD1002C16A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F75D16237AFFD1002C16A4;
+			remoteInfo = "Starcraft Build Companion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		253D522A238EFF2C0099D087 /* AppOpen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AppOpen.mp3; sourceTree = "<group>"; };
+		253D522C238EFF330099D087 /* CoopAllys.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CoopAllys.mp3; sourceTree = "<group>"; };
+		253D522E238EFF390099D087 /* ProtossFood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ProtossFood.mp3; sourceTree = "<group>"; };
+		253D5230238EFF3E0099D087 /* TerranFood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TerranFood.mp3; sourceTree = "<group>"; };
+		253D5232238EFF440099D087 /* ZergFood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ZergFood.mp3; sourceTree = "<group>"; };
+		256FB9742391CCA500AE2C29 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		25708344238439E7006A57B7 /* BuildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildViewController.swift; sourceTree = "<group>"; };
+		25BAC323239C703D007FCA4A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		25F75D17237AFFD1002C16A4 /* Starcraft Build Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Starcraft Build Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F75D1A237AFFD1002C16A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25F75D1C237AFFD1002C16A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		25F75D1F237AFFD1002C16A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F75D21237AFFD2002C16A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F75D24237AFFD2002C16A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25F75D26237AFFD2002C16A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F75D2B237AFFD2002C16A4 /* Starcraft Build CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starcraft Build CompanionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F75D2F237AFFD2002C16A4 /* Starcraft_Build_CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starcraft_Build_CompanionTests.swift; sourceTree = "<group>"; };
+		25F75D31237AFFD3002C16A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F75D36237AFFD3002C16A4 /* Starcraft Build CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Starcraft Build CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F75D3A237AFFD3002C16A4 /* Starcraft_Build_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starcraft_Build_CompanionUITests.swift; sourceTree = "<group>"; };
+		25F75D3C237AFFD3002C16A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F75D14237AFFD1002C16A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F75D28237AFFD2002C16A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F75D33237AFFD3002C16A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253D521F238EFE6E0099D087 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				253D5232238EFF440099D087 /* ZergFood.mp3 */,
+				253D5230238EFF3E0099D087 /* TerranFood.mp3 */,
+				253D522E238EFF390099D087 /* ProtossFood.mp3 */,
+				253D522C238EFF330099D087 /* CoopAllys.mp3 */,
+				253D522A238EFF2C0099D087 /* AppOpen.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		25F75D0E237AFFD1002C16A4 = {
+			isa = PBXGroup;
+			children = (
+				25BAC323239C703D007FCA4A /* Main.storyboard */,
+				25F75D19237AFFD1002C16A4 /* Starcraft Build Companion */,
+				25F75D2E237AFFD2002C16A4 /* Starcraft Build CompanionTests */,
+				25F75D39237AFFD3002C16A4 /* Starcraft Build CompanionUITests */,
+				25F75D18237AFFD1002C16A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F75D18237AFFD1002C16A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F75D17237AFFD1002C16A4 /* Starcraft Build Companion.app */,
+				25F75D2B237AFFD2002C16A4 /* Starcraft Build CompanionTests.xctest */,
+				25F75D36237AFFD3002C16A4 /* Starcraft Build CompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F75D19237AFFD1002C16A4 /* Starcraft Build Companion */ = {
+			isa = PBXGroup;
+			children = (
+				25F75D1A237AFFD1002C16A4 /* AppDelegate.swift */,
+				25F75D1C237AFFD1002C16A4 /* ViewController.swift */,
+				25708344238439E7006A57B7 /* BuildViewController.swift */,
+				256FB9742391CCA500AE2C29 /* OrderViewController.swift */,
+				25F75D1E237AFFD1002C16A4 /* Main.storyboard */,
+				25F75D21237AFFD2002C16A4 /* Assets.xcassets */,
+				25F75D23237AFFD2002C16A4 /* LaunchScreen.storyboard */,
+				25F75D26237AFFD2002C16A4 /* Info.plist */,
+				253D521F238EFE6E0099D087 /* Sounds */,
+			);
+			path = "Starcraft Build Companion";
+			sourceTree = "<group>";
+		};
+		25F75D2E237AFFD2002C16A4 /* Starcraft Build CompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				25F75D2F237AFFD2002C16A4 /* Starcraft_Build_CompanionTests.swift */,
+				25F75D31237AFFD3002C16A4 /* Info.plist */,
+			);
+			path = "Starcraft Build CompanionTests";
+			sourceTree = "<group>";
+		};
+		25F75D39237AFFD3002C16A4 /* Starcraft Build CompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				25F75D3A237AFFD3002C16A4 /* Starcraft_Build_CompanionUITests.swift */,
+				25F75D3C237AFFD3002C16A4 /* Info.plist */,
+			);
+			path = "Starcraft Build CompanionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F75D16237AFFD1002C16A4 /* Starcraft Build Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F75D3F237AFFD3002C16A4 /* Build configuration list for PBXNativeTarget "Starcraft Build Companion" */;
+			buildPhases = (
+				25F75D13237AFFD1002C16A4 /* Sources */,
+				25F75D14237AFFD1002C16A4 /* Frameworks */,
+				25F75D15237AFFD1002C16A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Starcraft Build Companion";
+			productName = "Starcraft Build Companion";
+			productReference = 25F75D17237AFFD1002C16A4 /* Starcraft Build Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F75D2A237AFFD2002C16A4 /* Starcraft Build CompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F75D42237AFFD3002C16A4 /* Build configuration list for PBXNativeTarget "Starcraft Build CompanionTests" */;
+			buildPhases = (
+				25F75D27237AFFD2002C16A4 /* Sources */,
+				25F75D28237AFFD2002C16A4 /* Frameworks */,
+				25F75D29237AFFD2002C16A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F75D2D237AFFD2002C16A4 /* PBXTargetDependency */,
+			);
+			name = "Starcraft Build CompanionTests";
+			productName = "Starcraft Build CompanionTests";
+			productReference = 25F75D2B237AFFD2002C16A4 /* Starcraft Build CompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		25F75D35237AFFD3002C16A4 /* Starcraft Build CompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F75D45237AFFD3002C16A4 /* Build configuration list for PBXNativeTarget "Starcraft Build CompanionUITests" */;
+			buildPhases = (
+				25F75D32237AFFD3002C16A4 /* Sources */,
+				25F75D33237AFFD3002C16A4 /* Frameworks */,
+				25F75D34237AFFD3002C16A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F75D38237AFFD3002C16A4 /* PBXTargetDependency */,
+			);
+			name = "Starcraft Build CompanionUITests";
+			productName = "Starcraft Build CompanionUITests";
+			productReference = 25F75D36237AFFD3002C16A4 /* Starcraft Build CompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F75D0F237AFFD1002C16A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					SoundSet,
+				);
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Max Cole";
+				TargetAttributes = {
+					25F75D16237AFFD1002C16A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					25F75D2A237AFFD2002C16A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 25F75D16237AFFD1002C16A4;
+					};
+					25F75D35237AFFD3002C16A4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 25F75D16237AFFD1002C16A4;
+					};
+				};
+			};
+			buildConfigurationList = 25F75D12237AFFD1002C16A4 /* Build configuration list for PBXProject "Starcraft Build Companion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F75D0E237AFFD1002C16A4;
+			productRefGroup = 25F75D18237AFFD1002C16A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F75D16237AFFD1002C16A4 /* Starcraft Build Companion */,
+				25F75D2A237AFFD2002C16A4 /* Starcraft Build CompanionTests */,
+				25F75D35237AFFD3002C16A4 /* Starcraft Build CompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F75D15237AFFD1002C16A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253D522B238EFF2C0099D087 /* AppOpen.mp3 in Resources */,
+				253D522F238EFF390099D087 /* ProtossFood.mp3 in Resources */,
+				253D5233238EFF450099D087 /* ZergFood.mp3 in Resources */,
+				25F75D25237AFFD2002C16A4 /* LaunchScreen.storyboard in Resources */,
+				25F75D22237AFFD2002C16A4 /* Assets.xcassets in Resources */,
+				253D5231238EFF3E0099D087 /* TerranFood.mp3 in Resources */,
+				25BAC324239C703D007FCA4A /* Main.storyboard in Resources */,
+				253D522D238EFF330099D087 /* CoopAllys.mp3 in Resources */,
+				25F75D20237AFFD1002C16A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F75D29237AFFD2002C16A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F75D34237AFFD3002C16A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F75D13237AFFD1002C16A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F75D1D237AFFD1002C16A4 /* ViewController.swift in Sources */,
+				25708345238439E7006A57B7 /* BuildViewController.swift in Sources */,
+				25F75D1B237AFFD1002C16A4 /* AppDelegate.swift in Sources */,
+				256FB9752391CCA500AE2C29 /* OrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F75D27237AFFD2002C16A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F75D30237AFFD2002C16A4 /* Starcraft_Build_CompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F75D32237AFFD3002C16A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F75D3B237AFFD3002C16A4 /* Starcraft_Build_CompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F75D2D237AFFD2002C16A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F75D16237AFFD1002C16A4 /* Starcraft Build Companion */;
+			targetProxy = 25F75D2C237AFFD2002C16A4 /* PBXContainerItemProxy */;
+		};
+		25F75D38237AFFD3002C16A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F75D16237AFFD1002C16A4 /* Starcraft Build Companion */;
+			targetProxy = 25F75D37237AFFD3002C16A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25F75D1E237AFFD1002C16A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F75D1F237AFFD1002C16A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25F75D23237AFFD2002C16A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F75D24237AFFD2002C16A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F75D3D237AFFD3002C16A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25F75D3E237AFFD3002C16A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F75D40237AFFD3002C16A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Starcraft Build Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UWE.Starcraft-Build-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		25F75D41237AFFD3002C16A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Starcraft Build Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UWE.Starcraft-Build-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		25F75D43237AFFD3002C16A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Starcraft Build CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UWE.Starcraft-Build-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starcraft Build Companion.app/Starcraft Build Companion";
+			};
+			name = Debug;
+		};
+		25F75D44237AFFD3002C16A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Starcraft Build CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UWE.Starcraft-Build-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starcraft Build Companion.app/Starcraft Build Companion";
+			};
+			name = Release;
+		};
+		25F75D46237AFFD3002C16A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Starcraft Build CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UWE.Starcraft-Build-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Starcraft Build Companion";
+			};
+			name = Debug;
+		};
+		25F75D47237AFFD3002C16A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Starcraft Build CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UWE.Starcraft-Build-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Starcraft Build Companion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F75D12237AFFD1002C16A4 /* Build configuration list for PBXProject "Starcraft Build Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F75D3D237AFFD3002C16A4 /* Debug */,
+				25F75D3E237AFFD3002C16A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F75D3F237AFFD3002C16A4 /* Build configuration list for PBXNativeTarget "Starcraft Build Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F75D40237AFFD3002C16A4 /* Debug */,
+				25F75D41237AFFD3002C16A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F75D42237AFFD3002C16A4 /* Build configuration list for PBXNativeTarget "Starcraft Build CompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F75D43237AFFD3002C16A4 /* Debug */,
+				25F75D44237AFFD3002C16A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F75D45237AFFD3002C16A4 /* Build configuration list for PBXNativeTarget "Starcraft Build CompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F75D46237AFFD3002C16A4 /* Debug */,
+				25F75D47237AFFD3002C16A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F75D0F237AFFD1002C16A4 /* Project object */;
+}
